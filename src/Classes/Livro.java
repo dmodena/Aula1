@@ -21,7 +21,7 @@ public class Livro {
     }    
     
     /*
-    * Criei métodos para retornar ou autor
+    * Criei métodos para retornar o autor
     * e o número de páginas também pois,
     * caso contrário, estes atributos
     * não poderiam ser acessados de
@@ -41,5 +41,9 @@ public class Livro {
     
     public boolean getEmprestado() {
         return emprestado;
-    }            
+    }    
+    
+    public void setEmprestado(boolean emprestado) {
+        this.emprestado = emprestado;
+    }
 }

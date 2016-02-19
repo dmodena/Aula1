@@ -74,7 +74,7 @@ public class Conta {
     }
             
     public double calcularTarifa() {
-        double tarifa = 0.00;
+        double tarifa;
         
         if(tipoConta == 1) {
             tarifa = 8.00;

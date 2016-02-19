@@ -24,8 +24,7 @@ public class Estacionamento {
         vaga1.setCarro(carro1);
         vaga1.setHoraEntrada(6);
         vaga1.setHoraSaida(11);
-        vaga1.setPrimeiraHora(9.00);
-        
+        vaga1.setPrimeiraHora(9.00);        
         
         carro2.setDescricao("Impreza Azul");
         carro2.setPlaca("KHP-8234");
